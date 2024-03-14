@@ -1,0 +1,176 @@
+.gradient-background {
+  background: linear-gradient(300deg, #f78c8c, #927cff, #5a9cff);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.hide-bg{
+
+      mix-blend-mode: multiply;
+      filter: contrast(100);
+      height: 300px;
+}
+.nav-item{
+  font-size: 30px;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+.profile-img{
+  border-radius: 50%;
+}  
+  
+
+  .w {
+    background-image: url("./images/tom1.png");
+  
+  }
+  
+  .a {
+    background-image: url("./images/tom2.png");
+  }
+  
+  .s {
+    background-image: url("./images/tom3.png");
+  }
+  
+  .d {
+    background-image: url("./images/tom4.png");
+  }
+  
+  .j {
+    background-image: url("./images/crash.png");
+  }
+  
+  .k {
+    background-image: url("./images/kick.png");
+  }
+  
+  .l {
+    background-image: url("./images/snare.png");
+  }
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #00126b;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+
+  
+  /*animations of h1*/
+  .fire {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1000px;
+    height: 200px;
+  
+    background-position: center center;
+    background-size: 1000px 200px;
+    border-radius: 10px;
+    font-family: cursive;
+    overflow: hidden;
+      text-align: center;
+    vertical-align: middle;
+  
+  }
+  .fire:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  .Blazing {
+    display: inline-block;
+    margin: 0;
+  
+      color: rgb(7, 5, 36);
+      font-size: 100px;
+    line-height: 50px;
+    min-width: 50px;
+    outline: none;
+    vertical-align: middle;
+      
+    text-shadow:
+          0 3px 20px rgb(0, 3, 188),
+          0 0 20px rgb(11, 0, 218),
+      0 0 10px rgb(196, 115, 234),
+      4px -5px 6px rgb(0, 242, 255),
+      -4px -10px 10px rgb(0, 242, 255),
+      0 -10px 30px rgb(0, 242, 255),;
+    animation: 2s Blazing infinite alternate linear;
+  }
+  
+  @keyframes Blazing {
+    0%   { text-shadow: 0 3px 20px rgb(0, 3, 188), 0 0 20px rgb(0, 3, 188)rgb(0, 3, 188),
+      0 0 10px rgb(196, 115, 234),
+      0 0 0 rgb(0, 242, 255),
+      0 0 5px rgb(0, 242, 255),
+      -2px -5px 5px rgb(0, 242, 255),
+      4px -10px 10px rgb(0, 242, 255); }
+    25%   { text-shadow: 0 3px 20px rgb(0, 3, 188), 0 0 30px rgb(0, 3, 188),
+      0 0 20px rgb(196, 115, 234),
+      0 0 5px rgb(0, 242, 255),
+      -2px -5px 5px rgb(0, 242, 255),
+      3px -10px 10px rgb(0, 242, 255),
+      -4px -15px 20px rgb(0, 242, 255); }
+    50%   { text-shadow: 0 3px 20px rgb(0, 3, 188), 0 0 20px rgb(0, 3, 188),
+      0 -5px 10px rgb(196, 115, 234),
+      -2px -5px 5px rgb(0, 242, 255),
+      3px -10px 10px rgb(0, 242, 255),
+      -4px -15px 20px rgb(0, 242, 255),
+      2px -20px 30px rgba(255,255,0,0.5); }
+    75%   { text-shadow: 0 3px 20px rgb(0, 3, 188), 0 0 20px rgb(0, 3, 188),
+      0 -5px 10px rgb(196, 115, 234),
+      3px -5px 5px rgb(0, 242, 255),
+      -4px -10px 10px rgb(0, 242, 255),
+      2px -20px 30px rgba(255,255,0,0.5),
+      0px -25px 40px rgba(255,255,0,0)}
+    100%   { text-shadow: 0 3px 20px rgb(0, 3, 188), 0 0 20px rgb(0, 3, 188),
+      0 0 10px rgb(196, 115, 234),
+      0 0 0 rgb(0, 242, 255),
+      0 0 5px rgb(0, 242, 255),
+      -2px -5px 5px rgb(0, 242, 255),
+      4px -10px 10px rgb(0, 242, 255); }
+  }
